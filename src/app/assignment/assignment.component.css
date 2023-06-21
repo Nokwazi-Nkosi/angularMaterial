@@ -1,0 +1,54 @@
+
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  body{
+height: 85%;
+width: 100%;
+
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    gap:5%
+  }
+  .mat-toolbar{
+    height: 50px;
+    background-color: pink;
+    font-weight: bold;
+  
+  }
+.mainSection{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 150px;
+border: 2px solid gray;
+background-color: white;
+width: 300px;
+
+}
+
+.item1:hover {
+  
+  background-color:#FF4500;
+}
+.item2:hover {
+  
+  background-color:#00CED1;
+}
+.item3:hover {
+  
+  background-color:#FF8C00;
+}
+.item4:hover {
+  
+  background-color: #4682B4;
+}
+.spinner{
+    width: 50px;
+}
+ 
