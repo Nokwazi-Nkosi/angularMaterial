@@ -1,0 +1,28 @@
+.example-spacer {
+    flex: 1 1 auto;
+   
+  }
+ 
+ 
+
+  .example-container {
+    width: 200px;
+    height: 85vh;
+    margin: 10px;
+    border: 1px solid #555;
+    background-color: plum;
+ 
+  }
+
+  .mat-stepper-horizontal {
+    margin-top: 8px;
+  }
+  
+  .mat-mdc-form-field {
+    margin-top: 16px;
+  }
+  .stepper{
+    display: flex;
+    flex-direction: row;
+  }
+  
